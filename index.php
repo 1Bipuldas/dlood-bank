@@ -19,7 +19,7 @@
 
 			</form>
 			<div class="social-btn">
-				<a href="#" target="_blank">Registration</a>
+				<a href="res-from.php" target="_blank">Registration</a>
 			</div>
 		</div>
 	</div>
