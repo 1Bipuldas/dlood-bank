@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.reg_header{
+   width: 100%;
+   height: 100vh;
+   background-image: url(assets/img/bg1.jpg);
+   background-position: center center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.reg_header{
+	background-image: url(assets/img/bg2.jpg);
+}
+
+
+.reg_header .login{
+	width: 400px;
+	background: #28DFDB60;
+	padding: 30px 50px;
+	box-shadow: 0 0 10px black;
+	border-radius: 5px ;
+
+}
+
+
+.reg_header .title{
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: 700;
+	text-shadow: 3px 3px 10px red;
+	padding-bottom: 20px;	
+}
+
+.reg_header .title{
+	color: orange;
+}
+
+
+.reg_header .login-from input,
+.reg_header .login-from select{
+	display: block;
+	width: 300px;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin-top: 12px;
+	font-size: 15px;
+	padding: 10px 50px;
+	
+}
+
+
+.reg_header .login-from .login-btn{
+	background: #1877f2;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 50px;
+	color: white;
+	
+}
+
+
+.reg_header .login-from a{
+	float: right;
+	padding-top: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+.reg_header .back-btn button{
+	width: 300px;
+	border-radius: 10px;
+	border: 1px solid black;
+	padding: 10px 50px;
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	background: red;
+	color: white;	
+}
+
+
+.regs_btn{
+	height: 40px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 20px;
+	background: green;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

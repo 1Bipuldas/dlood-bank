@@ -8,8 +8,7 @@ body{
 	
 }
 
-.header,
-.reg_header{
+.header{
    width: 100%;
    height: 100vh;
    background-image: url(assets/img/bg1.jpg);
@@ -18,27 +17,19 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-
-}
-
-.reg_header{
-	background-image: url(assets/img/bg2.jpg);
 }
 
 
-.header .login,
-.reg_header .login{
+.header .login{
 	width: 400px;
 	background: #28DFDB60;
 	padding: 30px 50px;
 	box-shadow: 0 0 10px black;
 	border-radius: 5px ;
-
 }
 
 
-.header .title,
-.reg_header .title{
+.header .title{
 	text-align: center;
 	font-size: 50px;
 	font-family: sans-serif;
@@ -47,38 +38,30 @@ body{
 	padding-bottom: 20px;	
 }
 
-.reg_header .title{
-	color: orange;
-}
 
 .header .login-from{}
 
-.header .login-from input,
-.reg_header .login-from input,
-.reg_header .login-from select{
+.header .login-from input{
 	display: block;
 	width: 300px;
 	border-radius: 10px;
 	border: 1px solid black;
 	margin-top: 12px;
 	font-size: 15px;
-	padding: 10px 50px;
-	
+	padding: 10px 50px;	
 }
 
-.header .login-from .login-btn,
-.reg_header .login-from .login-btn{
+.header .login-from .login-btn{
 	background: #1877f2;
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	margin-top: 50px;
 	color: white;
-	
 }
 
-.header .login-from a,
-.reg_header .login-from a{
+
+.header .login-from a{
 	float: right;
 	padding-top: 10px;
 	color: black;
@@ -86,21 +69,14 @@ body{
 }
 
 
-
-.header .social-btn,
-.reg_header .social-btn{
+.header .social-btn{
+	
 	text-align: center;
 	margin-top: 10px;	 
 }
 
-.reg_header .social-btn{
-	margin-top: 30px;
-}
 
-
-
-.header .social-btn a,
-.reg_header .social-btn a{
+.header .social-btn a{
 	display: block;
 	width: 300px;
 	border-radius: 10px;
@@ -112,26 +88,29 @@ body{
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
-	
 }
 
 
 
-.header .social-btn a:nth-child(1),
-.reg_header .social-btn a:nth-child(1){
+.header .social-btn a:nth-child(1){
 	background: #39569c ;
 }
 
-.header .social-btn a:nth-child(2),
-.reg_header .social-btn a:nth-child(2){
+
+.header .social-btn a:nth-child(2){
 	background:red;
 }
 
 
-
-.header .social-btn a i,
-.reg_header .social-btn a i{
+.header .social-btn a i{
 	margin-left: -30px;
 	padding-right: 10px;
 	font-size: 25px;
 }
+
+
+
+
+
+
+

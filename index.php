@@ -11,11 +11,11 @@
 	<div class="header">
 		<div class="login">
 			<div class="title">Login From</div>
-			<form class="login-from">
-				<input type="text" placeholder="Username Or Email Address">
-				<input type="Password" placeholder="Enter Password">
+			<form class="login-from" action="blood_dashbord.php" method="post">
+				<input type="text" name="Username_email" placeholder="Username Or Email Address">
+				<input type="Password" name="Uspassword" placeholder="Enter Password">
 				<a href="#">Forgt Password</a>
-				<input type="submit" value="LOGIN" class="login-btn">
+				<input type="submit" name="uslogin" value="LOGIN" class="login-btn">
 
 			</form>
 			<div class="social-btn">
